@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpingHand">
         <activity
+            android:name=".Messaging"
+            android:exported="true" />
+        <activity
+            android:name=".PsychList"
+            android:exported="true" />
+        <activity
+            android:name=".Homepage"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

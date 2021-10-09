@@ -5,17 +5,53 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".MainActivity">
+    tools:context=".Messaging">
 
-    <com.google.android.material.navigation.NavigationView
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="53dp"
-        android:background="#BFA2DB" />
+        android:layout_height="wrap_content"
+        android:background="#BFA2DB">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            app:cardCornerRadius="150dp">
+
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/userdp"
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+
+    </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_msg"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="53dp" />
+        android:scrollbars="vertical"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/linearlayout"
+
+        />
 
     <LinearLayout
         android:id="@+id/linearlayout"
@@ -68,5 +104,7 @@
             android:scaleType="fitCenter"
             android:src="@drawable/sendbtn" />
     </LinearLayout>
+
+
 
 </RelativeLayout>

@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/drawable/buttonshape.xml" value="0.240625" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
         <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/activity_main.xml" value="0.21041666666666667" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/activity_messaging.xml" value="0.22" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/chat_left.xml" value="0.33" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/chat_right.xml" value="0.25" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/chat_self.xml" value="0.2" />
         <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/home.xml" value="0.33" />
-        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/messaging.xml" value="0.20244565217391305" />
+        <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/messaging.xml" value="0.25" />
         <entry key="..\:/Users/SeaWeed/AndroidStudioProjects/HelpingHand/app/src/main/res/layout/signin.xml" value="0.25" />
       </map>
     </option>
